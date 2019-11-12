@@ -3,6 +3,15 @@
 ## Compatibility
 The code is tested using enviroment Spark 1.2.1 with Python 2.7 on Virtual Box.
 
+## Setup
+### Datasets :
+- Amazon Review Data accessed from (http://snap.stanford.edu/data/web-Amazon-links.html)
+- Number of reviews : 34,686,770
+- Number of users : 6,643,669 (56,772 with more than 50 reviews)
+- Number of products : 2,441,053
+### Paper:
+http://snap.stanford.edu/class/cs224w-2012/projects/cs224w-044-final.v01.pdf
+
 ## How to run
 
 ### Step 1:
