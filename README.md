@@ -9,18 +9,21 @@ The code is tested using enviroment Spark 1.2.1 with Python 2.7 on Virtual Box.
 Start Hadoop on Virtual box.
 
 ### Step 2:
-Setup numpy, scipy library.
+Setup ``numpy``, ``scipy`` library.
 
 ### Step 3:
 Run ``export SPARK_HOME=/usr/hdp/2.2.4.2-2/spark`` on terminal.
 
 ### Step 4:
 Move 4 file ``AmazonALS.py``, ``ratings.dat``, ``products.dat``, ``users.dat`` to folder of Hadoop:
+	
 	/workspace/AmazonRecommendation
 
 ### Step 5:
 Create folder in HDFS ``/user/AZ_P/input``, and move 3 file ``.dat`` to the newly created ``input`` directory with the following command:
+	
 	$ hdfs dfs -mkdir /user/AZ_P/input
+	
 	$ hdfs dfs input <file_name> <path>
 
 ### Step 6:
